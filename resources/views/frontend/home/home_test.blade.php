@@ -385,8 +385,8 @@
                         customised lessons tailored to the child’s goals, pace and learning style adapted to your
                         child’s needs.</p>
                     <div class="reviewBox">
-                        <img src="{{asset('front/img/newimages/reviewStar.png')}}" alt="">
-                        <img src="{{asset('front/img/newimages/arrowVector.png')}}" alt="">
+                        <img class="reviewBox-imgreview" src="{{asset('front/img/newimages/reviewStar.png')}}" alt="">
+                        <img class="reviewBox-imgarrow" src="{{asset('front/img/newimages/arrowVector.png')}}" alt="">
                         <div class="rightBox">
                             <i class="fa fa-arrow-left" aria-hidden="true"></i>
                             <p>Please click the above icon to view our feedback and reviews</p>
@@ -1217,7 +1217,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 bottomleft">
+                <div class="col-md-6 bottomleft" style="margin-top: 25px;">
                     <div class="containInfo">
                         <img src="{{asset('front/img/newimages/bottomleft.png')}}" alt="">
                         <h2>How much does tuition cost?</h2>
@@ -1269,7 +1269,7 @@
             </div>
             <div class="col-md-12">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg1.jpg')}}"
@@ -1281,7 +1281,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg2.jpg')}}"
@@ -1293,7 +1293,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg3.jpg')}}"
@@ -1305,7 +1305,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg4.jpg')}}"
@@ -1317,7 +1317,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg5.jpg')}}"
@@ -1329,7 +1329,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg6.jpg')}}"
@@ -1341,7 +1341,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg7.jpg')}}"
@@ -1353,7 +1353,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg8.jpg')}}"
@@ -1365,7 +1365,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg9.jpg')}}"
@@ -1377,7 +1377,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg10.jpg')}}"
@@ -1389,7 +1389,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg11.jpg')}}"
@@ -1401,7 +1401,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
                         <div class="mainBox">
                             <div class="servicebox">
                                 <img class="mainimg" src="{{asset('front/img/newimages/ourPopularSubjectImg12.jpg')}}"
@@ -2359,7 +2359,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="event-area custom-topbottompd gray gray-bgs res-pt-0">
         <div class="container">
             <div class="row">
@@ -2491,7 +2491,7 @@
             </div>
         </div>
     </div>
-   
+
     <div class="description-data event-pd home-event-pd">
         <div class="container">
             <div class="row">

@@ -6,10 +6,10 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------
-    
+
     CSS INDEX
     ===================
-	
+
     1. Theme Default CSS (body, link color, section etc)
     2. Header CSS
         2.1 Header Top
@@ -2120,6 +2120,7 @@ input[type="number"] {
 .single-product-image {
     text-align: center;
     /* min-height: 590px; */
+    height: 590px;
 }
 
 .single-product-image img {
@@ -2199,7 +2200,7 @@ input[type="number"] {
 .testimonial-area {
     /* background: rgba(0, 0, 0, 0) url("img/banner/3.jpg") no-repeat scroll 0 0 / cover; */
     overflow: hidden;
-    padding: 95px 0 82px;
+    padding: 95px 100px 82px 100px;
     position: relative;
 }
 
@@ -5162,7 +5163,7 @@ a.green-atag:hover {
 }
 /* .max-englishtext {
    max-width: 470px;
-   
+
 } */
 
 .max-englishtext {
@@ -5290,7 +5291,7 @@ a.green-atag:hover {
     padding: 50px 0px;
     background: #f6f6f6;
 }
-/* 
+/*
 .gcse-titles {
     max-width: 583px;
 } */
@@ -6930,7 +6931,7 @@ select {
     }
     /*
     .padding-headsection {
-       
+
         padding: 30px 0px!important;
     }
     */
@@ -7481,7 +7482,7 @@ select {
     }
 
     /* .title2-law {
-       
+
         line-height:28px!important;
     } */
     .login-main-box {
@@ -7770,7 +7771,7 @@ select {
     }
     .single-product-image img {
         width: 100%;
-        height: auto;
+        height: 320px;
         /* object-fit: cover; */
     }
     .custom-checkbox-subject .custom-control-label::before {

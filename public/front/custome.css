@@ -119,10 +119,10 @@
     text-transform: uppercase;
     color: #fff;
     padding: 1rem 0;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 .tutoring_section .mainBox .box .contain {
-    padding-left: 150px;
+    padding-left: 100px;
     padding-right: 1rem;
     display: flex;
     align-items: flex-start;
@@ -131,7 +131,7 @@
     gap: 88px;
 }
 .lastOne .mainBox .box .contain {
-    padding-left: 150px;
+    padding-left: 100px;
     padding-right: 1rem;
     display: flex;
     align-items: flex-start;
@@ -140,7 +140,7 @@
     gap: 27px;
 }
 .tutoring_section .mainBox .box .contain .innerImg {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     height: -webkit-fill-available;
     width: 491px;
 }
@@ -191,11 +191,11 @@
     text-transform: uppercase;
     color: #fff;
     padding: 1rem 0;
-    padding-right: 150px;
+    padding-right: 100px;
 }
 .tutoringTailored .mainBox .box .contain {
-    padding-right: 153px;
-    padding-left: 59px;
+    padding-right: 100px;
+    padding-left: 30px;
     padding-top: 23px;
     text-align: right;
     height: 100%;
@@ -219,7 +219,7 @@
     width: 353px;
     height: 450px;
     border-width: 2px;
-    object-fit: cover;
+    /* object-fit: cover; */
     /* border: 2px solid #107dc2; */
     flex: none;
     margin-right: 10px;
@@ -228,13 +228,15 @@
     display: flex;
     align-items: center;
     position: absolute;
-    right: 153px;
+    right: 50px;
     width: max-content;
     bottom: -100px;
 }
+
 .tutoringTailored .mainBox .box .contain .reviewBox img {
     flex: none;
 }
+
 .tutoringTailored .mainBox .box .contain .reviewBox .rightBox {
     background-color: #083b5c;
     color: #fff;
@@ -317,6 +319,7 @@
     display: inline-block;
     margin-right: 30px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .mainmenu ul#nav > li > a {
@@ -733,6 +736,8 @@
 
 .TutorsbyLevel {
     padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .TutorsbyLevel .title .info {
     max-width: 1150px;
@@ -787,6 +792,8 @@
 
 .DiscoverOurBlogs {
     padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .DiscoverOurBlogs .title .info {
     max-width: 1150px;
@@ -1359,7 +1366,7 @@
 }
 .expertTution .bottomleft .containInfo img {
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 50px;
     /* height: 315px; */
     width: 100%;
@@ -1498,6 +1505,7 @@
 }
 .complimenting .accordion {
     margin-top: 113px;
+    margin-bottom: 36px;
 }
 .complimenting .accordion .title {
     font-weight: 700;
@@ -2234,7 +2242,7 @@
     width: 100%;
 }
 @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-        .container-fluid {
+    .container-fluid {
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -2245,10 +2253,10 @@
         padding-right: 15px;
         padding-left: 15px;
     }
-    .htBtn{
+    .htBtn {
         padding: 12px 10px;
     }
-    .htBtn span{
+    .htBtn span {
         display: none;
     }
 }
@@ -2290,4 +2298,98 @@
         font-size: 0;
         padding: 12px 10px;
     }
+}
+
+/* Find a Tour Tab CSS */
+/* Tabs*/
+
+/* Your original CSS - completely preserved */
+.find-a-tour-tab#tabs {
+    color: #eee;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+}
+
+.find-a-tour-tab#tabs .nav-tabs .nav-item.show .nav-link,
+.find-a-tour-tab#tabs .nav-tabs .nav-link.active {
+    background: #ffffff;
+    border-bottom: 3px solid #107dc2;
+    box-shadow: inset 5px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 0px 0px 0px;
+    color: #107dc2;
+}
+
+.find-a-tour-tab#tabs .nav-tabs .nav-link {
+    color: #2b2b2b;
+    font-size: 30px;
+    line-height: 30px;
+}
+.find-a-tour-tab#tabs .tab-content {
+    padding: 16px;
+}
+.banner-content h1.text-center.brder-remove::after {
+    display: none;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border: 0;
+}
+
+/* Additional CSS only for two-tab layout */
+.find-a-tour-tab#tabs .nav-tabs {
+    display: flex;
+    border-bottom: none;
+    /* Rectangle 103 */
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: inset 5px 5px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(23.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 0px 20px 0px 0px;
+}
+
+.find-a-tour-tab#tabs .nav-tabs .nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+/* First tab active state */
+.find-a-tour-tab#tabs .nav-tabs .nav-item:first-child .nav-link.active {
+    border-radius: 20px 0 0 0 !important;
+}
+
+/* Second tab active state */
+.find-a-tour-tab#tabs .nav-tabs .nav-item:last-child .nav-link.active {
+    border-radius: 0 20px 0 0 !important;
+}
+
+.find-a-tour-tab#tabs .nav-tabs .nav-link {
+    border: none;
+    padding: 15px;
+}
+.find-a-tour-tab#tabs .input-box {
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-size: 24px;
+    width: 100%;
+}
+.our-mission-box{
+    background-color: #C9EAFF;
+}
+.our-mission-box .our-mission-cont .mission-title{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 16px;
+}
+.our-mission-box .our-mission-cont .mission-descript{
+    font-size: 24px;
+    line-height: 35px;
+    color: #000;
 }
